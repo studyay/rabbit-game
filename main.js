@@ -120,7 +120,7 @@ function 주인공animate() {
 
 var jump = false;
 document.addEventListener('keydown', function (e) {
-    if (e.code === 'Space') {
+    if (e.code === 'KeyW') {
         jump = true;
     }
 });
